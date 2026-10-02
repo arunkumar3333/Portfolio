@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion';
+  import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
 import { HiDownload } from 'react-icons/hi';
@@ -159,7 +159,7 @@ export default function Resume() {
               Download Resume (PDF)
             </a>
             <a
-              href="/resume.pdf"
+              href="/resume.docx"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 px-8 py-3 glass border border-blue-500/50 text-blue-400 font-semibold rounded-xl transition-all duration-300 hover:scale-105 hover:bg-blue-500/10"
